@@ -27,7 +27,7 @@ body{
   line-height: 1.5;
   background-color: #fff;
   color: var(--text-color);
-  overflow: hidden;
+
 }
 
 
@@ -47,6 +47,7 @@ img{
 }
 
 .button {
+  width: 163px;
   font-weight: 500;
   font-size: 14px;
   line-height: 28px;
@@ -83,17 +84,14 @@ img{
 
 
 .site-logo {
-
+  width: 139px;
+  height: 20px;
 
 }
 
 .logo-img {
   width: 139px;
   height: 20px;
-}
-
-.header-nav {
-
 }
 
 .header-nav-list {
@@ -271,7 +269,10 @@ img{
 }
 
 .articles-item-img {
-margin-bottom: 25px;
+  width: 255px;
+  height: 200px;
+  border-radius: 5px 5px 0px 0px;
+  margin-bottom: 25px;
 }
 
 .articles-item-by-who {
@@ -299,5 +300,102 @@ margin-bottom: 25px;
   line-height: 18px;
   letter-spacing: -0.203125px;
   color: #9597A5;
-margin: 0;
+  margin: 0;
+}
+
+/* footer */
+.site-footer{
+  background-color: #2D314D;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+
+.logo-and-social-networking {
+  margin-right: 131px;
+}
+
+.footer-logo{
+  display: block;
+  padding-bottom: 55px;
+}
+
+.social-network-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-network-list-item:not(:last-child){
+  margin-right: 13.33px;
+}
+
+.social-network-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-network-link:hover{
+  color: #30C88F;
+}
+
+.cocial-network-icon {
+  display: block;
+}
+
+.footer-list {
+  width: 160px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list:not(:last-child){
+  margin-right: 30px;
+}
+
+.footer-list-item:not(:last-child) {
+  margin-bottom: 8px;
+
+}
+
+.footer-item-link {
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.234375px;
+  color: #fff;
+}
+
+.footer-item-link:hover{
+  color:#30C88F;
+}
+
+.footer-button-span-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.footer-button{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 24px;
+}
+
+.footer-span {
+  font-size: 15px;
+  line-height: 26px;
+  text-align: right;
+  letter-spacing: -0.234375px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
 }
